@@ -26,6 +26,7 @@ public class BaseTestClass {
 			System.setProperty("webdriver.chrome.driver", "/Users/milanpatel/Documents/core/software/chromedriver-3");
 			webDriver = new ChromeDriver();
 			webDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+			
 		} else if (browser == 2) {
 			System.setProperty("webdriver.gecko.driver", "/Users/milanpatel/Documents/core/software/geckodriver 2");
 			webDriver = new FirefoxDriver();
